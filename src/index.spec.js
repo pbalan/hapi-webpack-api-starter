@@ -4,6 +4,7 @@ import chai from 'chai';
 
 chai.should();
 
+// example of test
 describe('Array', function () {
     describe('#indexOf()', function () {
         it('it should return a value of -1 when the value is not present', function () {

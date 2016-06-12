@@ -39,7 +39,7 @@ browserSync({
       webpackHotMiddleware(bundler),
 
       historyApiFallback(),
-      proxyMiddleware('/i', { target: 'http://localdev.corp.apple.com:4000' })
+      proxyMiddleware('/i', { target: 'http://localhost:4000' })
     ]
   }
 });
